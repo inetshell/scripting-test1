@@ -1,0 +1,7 @@
+SELECT * FROM DBC.TABLES
+--------------------------------------------------------------------------------------
+NAME                           |TYPE |FORMAT                                     |LENGTH
+ID                             |I    |-(10)9                                     |4
+FEC_CORTE                      |DA   |YYYY-MM-DD                                 |16
+SALDO                          |F    |-9.99999999999999E-999                     |8
+CONCEPTO                       |CV   |X(25)                                      |25
