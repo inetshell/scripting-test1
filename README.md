@@ -20,4 +20,4 @@ user@host:~/$ cat schema.dat
 ```
 
 ## Notas
-* El script debe correr sobre un equipo CentOS 7 que tiene python27, bash, grep, sed, awk.
+* El script debe correr sobre un equipo CentOS 7 que tiene python27, bash, grep, sed y awk.
