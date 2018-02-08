@@ -11,7 +11,6 @@ Realizar un script que lea el archivo __input1.dat__ y genere los archivos __que
 Ejemplo:
 ```bash
 user@host:~/$ script.sh input1.dat DB TB
-OK
 
 user@host:~/$ cat query.sql
 SELECT CAST("ID" AS VARCHAR(4)), CAST("FEC_CORTE" AS VARCHAR(16)), CAST(CAST(TRIM("SALDO") AS NUMBER) AS VARCHAR(8)), CAST("CONCEPTO" AS VARCHAR(25)) FROM DB.TB;
